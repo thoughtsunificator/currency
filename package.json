@@ -3,7 +3,7 @@
 	"version": "1.0.2",
 	"main": "index.js",
 	"type": "module",
-	"description": "Currency library",
+	"description": "Currency library for converting currency pairs and getting exchange rates.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thoughtsunificator/currency.git"

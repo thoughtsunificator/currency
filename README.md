@@ -1,12 +1,14 @@
 # currency
 
-Currency library
+Currency library for converting currency pairs and getting exchange rates.
+
+This is a Fetch abstraction for [free-exchange-rates-api](https://github.com/thoughtsunificator/free-exchange-rates-api). 
 
 ## Getting started
 
 ### Installing
 
-`npm install @thoughtsunificator/grid`
+`npm install @thoughtsunificator/currency`
 
 ## Usage
 
