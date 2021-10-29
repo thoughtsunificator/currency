@@ -2,6 +2,7 @@ import fetch from "node-fetch"
 
 /**
  * @global
+ * @hideconstructor
  */
 class Currency {
 
