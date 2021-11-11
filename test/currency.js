@@ -17,16 +17,9 @@ describe("Cell", () => {
 	})
 
 	it("convert", async () => {
-		const rate = await Currency.convert("EUR", "USD", 20)
-		assert.deepEqual(rate, {
-			from: "EUR",
-			to: "USD",
-			value: 20,
-			result: rate.result,
-			date: rate.date
-		})
-		assert.ok(!isNaN(new Date(rate.date).valueOf()))
-		assert.ok(!isNaN(rate.value))
+		const rate = 	1.1460329999999999
+		assert.strictEqual(Currency.convert(rate, 1), rate)
+		assert.strictEqual(Currency.convert(rate, 2), 2.2920659999999997)
 	})
 
 })
