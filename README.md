@@ -16,6 +16,6 @@ This is a Fetch abstraction for [free-exchange-rates-api](https://github.com/tho
 import Currency from "@thoughtsunificator/currency"
 
 const rate = await Currency.rate("USD", "EUR")
-const value = await Currency.convert("USD", "EUR", 250)
+const value = Currency.convert(rate, 250)
 
 ```
