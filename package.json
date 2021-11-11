@@ -1,6 +1,6 @@
 {
 	"name": "@thoughtsunificator/currency",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"main": "index.js",
 	"type": "module",
 	"description": "Currency library for converting currency pairs and getting exchange rates.",
@@ -24,6 +24,6 @@
 		"mocha": "^9.1.1"
 	},
 	"dependencies": {
-		"node-fetch": "^3.0.0"
+		"node-fetch": "^3.1.0"
 	}
 }
