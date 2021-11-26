@@ -2,7 +2,7 @@ import assert from "assert"
 
 import Currency from "../index.js"
 
-describe("Cell", () => {
+describe("Currency", () => {
 
 	it("rate", async () => {
 		const rate = await Currency.rate("EUR", "USD")
